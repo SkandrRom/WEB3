@@ -1,0 +1,624 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+div {
+    display: block;
+}
+a{
+   text-decoration: none;
+}
+ #background {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 3000px;
+    overflow: hidden;
+    z-index: 0;
+}
+#apui {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 992px;
+    height: 546px;
+    z-index: 1;
+}
+.hr-line {
+  position: relative;
+  top: 55px;
+	padding-top: 0px;
+	height: 1px;
+	background-color: #999999;
+  color: #999999;
+  z-index: 2;
+  border:none !important;
+  width: 980px;
+}
+#panel1{
+    color:#ffffff;
+    left: 10px;
+    top: 0px;
+    position: absolute;
+    width: 890px;
+    height: 60px;
+    z-index: 3;
+}
+#LOGO{
+  left: 10px;
+  width: 65px;
+  height: 18px;
+  position: absolute;
+  z-index: 4;
+}
+.p{
+float: left;
+text-decoration: none;
+color: white;
+margin: 20px;
+margin-left: 30px;
+font-size: 14pt;
+}
+.d{
+float: left;
+text-decoration: none;
+color: #00c4e1;
+margin: 20px;
+margin-left: 30px;
+font-size: 14pt;
+}
+#home{
+  margin-left: 110px;
+}
+#panel2{
+width: 538px;
+height: 196px;
+left: 240px;
+top: 190px;
+position: absolute;
+border-bottom: none;
+z-index: 5;
+}
+.panel21{
+  width: 538px;
+  height: 196px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  opacity: 0.3;
+   border: 1px double #a7a7a7;
+  border-bottom: none;
+  z-index: 7;
+}
+.nad{
+font-size: 34pt;
+color:#ffffff;
+text-align: center;
+line-height: 2.5em;
+}
+.nad2{
+  width: 332px;
+  height: 33px;
+  position: absolute;
+  left: 20%;
+  font-size: 8pt;
+  text-align: center;
+  color:#e3e3e1;
+}
+#panel3{
+width: 109px;
+height: 36px;
+left: 440px;
+top: 369px;
+position: absolute;
+z-index:8;
+}
+a.button1 {
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+    padding: .5em 1em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+a.button1:hover { background: rgba(255,255,255,.2); }
+a.button1:active { background: white; }
+#apui1{
+  left: -5px;
+  top: 546px;
+  position: absolute;
+  width: 502px;
+  height: 461px;
+  z-index: 9;
+}
+#panel4{
+  display: block;
+  width: 497px;
+  height: 461px;
+  left: 495px;
+  position: absolute;
+  background-color: white;
+  top: 546px;
+  z-index: 10;
+}
+.panel41{
+  position: absolute;
+  width: 360px;
+  left: 50px;
+  height: 50px;
+  top: 30px;
+  font-size: 22pt;
+  font-weight: bold;
+}
+.panel42{
+  display: block;
+  left: 50px;
+    top: 71px;
+    position: absolute;
+    background-color: black;
+    width: 395px;
+    height: 1px;
+    z-index: 11;
+}
+.panel43{
+  display: block;
+  left: 50px;
+    top: 70px;
+    position: absolute;
+    background-color: black;
+    width: 60px;
+    height: 1px;
+    z-index: 12;
+}
+.panel44{
+  position: absolute;
+  top: 110px;
+  left: 50px;
+}
+.panel45{
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.panel46{
+  position: absolute;
+  top: 360px;
+  left: 50px;
+  width: 160px;
+  height: 40px;}
+   a.buttonbly {
+     display: inline-block;
+     background-color:  #05a0af;
+     color:  #05a0af;
+     font-weight: 700;
+     text-decoration: none;
+     user-select: none;
+       padding: .5em 1em;
+     outline: none;
+     border: 2px solid;
+     border-radius: 1px;
+     transition: 0.2s;
+   }
+   a.buttonbly:hover { background: rgba(74,164,190,.7); }
+   a.buttonbly:active { background: black; }
+#panel5{
+    top: 973px;
+    position: absolute;
+    width: 992px;
+    height: 142px;
+    z-index: 13;
+    background-color: #373737;
+
+}
+.panel51{
+    display: block;
+    left: 50px;
+      top: 71px;
+      position: absolute;
+      background-color: white;
+      width: 304px;
+      height: 1px;
+      z-index: 14;
+}
+.panel52{
+  display: block;
+  left: 305px;
+    top: 70px;
+    position: absolute;
+    background-color: white;
+    width: 71px;
+    height: 3px;
+    z-index: 15;
+}
+.panel53t{
+  top: 45px;
+  position: absolute;
+  left: 397px;
+  height: 60px;
+  width: 290px;
+  color: white;
+  font-size: 25pt;
+}
+.panel54{
+  display: block;
+  left: 647px;
+    top: 71px;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 1px;
+    z-index: 16;
+}
+.panel55{
+  display: block;
+  left: 647px;
+    top: 70px;
+    position: absolute;
+    background-color: white;
+    width: 71px;
+    height: 3px;
+    z-index: 17;
+}
+#panel6{
+  position: absolute;
+top: 1113px;
+  background-color:  #3e3e3e;
+  width: 992px;
+  height: 555px;
+  z-index: 18;
+}
+.panel61{
+position: absolute;
+width: 335px;
+height: 555px;
+z-index: 19;
+}
+.panel61k{
+  top: 150px;
+  left: 100px;
+  position: absolute;
+}
+.panel61t{
+  position: absolute;
+  left: 50px;
+  top: 270px;
+  color: white;
+  font-size: 18pt;
+}
+.panel61t2{
+  position: absolute;
+  height: 75px;
+  width: 305px;
+  left: 20px;
+  top: 310px;
+  color: white;
+  font-size: 12pt;
+  text-align: center;
+}
+.panel6t3{
+  position: absolute;
+  top: 400px;
+  left: 85px;
+  width: 145px;
+  height: 30px;
+}
+a.buttongrey {
+  border-radius: 3px;
+  display: inline-block;
+  background-color: #959595;
+  color:  #959595;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+    padding: .5em 1em;
+  outline: none;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+a.buttongrey:hover { background: rgba(167,167,167,.3); }
+a.buttongrey:active { background: black; }
+.panel62{
+position: absolute;
+width: 335px;
+height: 555px;
+left: 335px;
+background-color: #097e89;
+}
+.panel63{
+position: absolute;
+width: 335px;
+height: 555px;
+left: 657px;
+}
+.panel6k{
+  position:absolute;
+   bottom:0;
+   right:0;
+}
+#panel7{
+    top: 1666px;
+    position: absolute;
+    width: 992px;
+    height: 142px;
+    background-color: #373737;
+}
+.panel71{
+  top: 45px;
+  position: absolute;
+  left: 427px;
+  height: 60px;
+  width: 290px;
+  color: white;
+  font-size: 25pt;
+}
+#panel8{
+  top: 1805px;
+  position: absolute;
+  width: 992px;
+  height: 285px;
+  background-color: #3e3e3e;
+}
+.panel81{
+  text-align: center;
+  top: 45px;
+  position: absolute;
+  left: 40px;
+  height: 105px;
+  width: 260px;
+  color: white;
+  font-size: 16pt;
+  opacity: 0.7;
+}
+.panel82{
+  left: 45px;
+position: absolute;
+top: 180px;
+
+}
+.block8{
+  position: absolute;
+  background-color: white;
+  height: 2px;
+  width: 63px;
+  top: 160px;
+  left: 125px;
+opacity: 0.7;
+}
+.model1{
+    position: absolute;
+    left: 338px;
+    top: 30px;
+}
+.model2{
+    position: absolute;
+    left: 560px;
+    top: 30px;
+}
+.model3{
+    position: absolute;
+    left: 780px;
+    top: 30px;
+}
+.block1{
+  position: absolute;
+  width: 43px;
+  height: 33px;
+  background-color: white;
+  top: 180px;
+  left: 10px;
+  font-size: 13pt;
+  text-align: center;
+}
+.block2{
+  left: 65px;
+  top: 180px;
+  position: absolute;
+  width: 137px;
+  height: 31px;
+  background-color: white;
+  font-size: 11pt;
+}
+#panel9{
+    top: 2087px;
+    position: absolute;
+    width: 992px;
+    height: 142px;
+    background-color: white;
+}
+.panel91{
+    display: block;
+    left: 50px;
+      top: 71px;
+      position: absolute;
+      background-color: black;
+      width: 304px;
+      height: 1px;
+}
+.panel92{
+  display: block;
+  left: 305px;
+    top: 70px;
+    position: absolute;
+    background-color: black;
+    width: 71px;
+    height: 3px;
+}
+.panel93{
+  top: 45px;
+  position: absolute;
+  left: 435px;
+  height: 60px;
+  width: 290px;
+  color: black;
+  font-size: 25pt;
+}
+.panel94{
+  display: block;
+  left: 647px;
+    top: 71px;
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 1px;
+}
+.panel95{
+  display: block;
+  left: 647px;
+    top: 70px;
+    position: absolute;
+    background-color: black;
+    width: 71px;
+    height: 3px;
+}
+.panel101{
+  position: absolute;
+  top: 2225px;
+}
+.panel10{
+  position: absolute;
+  background-color: white;
+  opacity: 0.9;
+  height: 75px;
+  width: 992px;
+  top: 2535px;
+}
+#panel11{
+  position: absolute;
+  width: 992px;
+  height: 175px;
+  top: 2610px;
+  background-color: #097e89;
+}
+.panel11{
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  color: white;
+  font-size: 21pt;
+}
+.panel112{
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  left: 45px;
+  top: 70px;
+  color: white;
+  font-size: 10pt;
+}
+.panel113{
+  width: 510px;
+  height: 46px;
+  position: absolute;
+  border: 1px double #f0f0f0;
+   border-radius: 2px;
+   top: 60px;
+   left: 440px;
+   opacity: 0.8;
+}
+.panelt1{
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+.palka{
+  width: 1px;
+  height: 45px;
+  position: absolute;
+  background-color: white;
+  left: 200px;
+}
+.panelt2{
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 230px;
+}
+a.knopka {
+  position: absolute;
+  left: 850px;
+  top: 60px;
+  color:  #097e89;
+  text-decoration: none;
+  user-select: none;
+  background: white;
+  padding: 11px 19px;
+  outline: none;
+}
+a.knopka:hover { background: #c8c8c8; }
+#panel12{
+  width: 992px;
+  height: 220px;
+  position: absolute;
+  top: 2785px;
+  background-color: #464646;
+}
+.panel121{
+  float: left;
+}
+li {
+  font-size: 11pt;
+  margin-bottom: 1em;
+   list-style-type: none;
+  }
+  ol {
+    margin-top: 20px;
+    padding-top: 20px;
+   margin-left: 30px;
+   padding-left: 30px;
+  }
+.underline {
+  width: 26px;
+  font-size: 13pt;
+  color: white;
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
+  padding-bottom: 7px;
+}
+.j{
+  color: white;
+}
+.knopka2{
+  left: 690px;
+  top: 40px;
+  width: 260px;
+  height: 60px;
+  position: absolute;
+}
+.knopka2 input {
+  opacity: 0.8;
+  width: 228px;
+    padding: 15px;
+ font-size: 14px;
+ border: 1px solid #f1f1f1;
+ float: left;
+position: absolute;
+ background: #f1f1f1;
+}
+.knopka2 button {
+right: 0;
+position: absolute;
+  padding: 15px;
+  background: #2196F3;
+  color: white;
+  font-size: 14px;
+  border: 1px solid #cdcdcd;
+  border-left: none;
+  cursor: pointer;
+}
+.knopka2 button:hover {
+  background: #0b7dda;
+}
+#top2{
+  position: absolute;
+right: 0px;
+bottom: 0px;
+}
